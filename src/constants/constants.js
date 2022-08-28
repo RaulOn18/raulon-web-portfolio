@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/daarut-tauhid-blog.png",
     tags: ["GraphQL", "NextJs", "TailwindCss", "Sass", "Moment"],
     source: "https://github.com/RaulOn18/daarut-tauhid-blog-nextjs",
-    visit: "https://google.com",
+    visit: "https://ruangdakwah.vercel.app",
     id: 2,
   },
 ];

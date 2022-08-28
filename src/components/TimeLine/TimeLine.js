@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a Daarut Tauhid University student. With a strong desire to pursue
-        a career in IT, I have 2 years of programming experience and have
+        a career in IT, I have 3 years of programming experience and have
         completed an internship at PT. Jinom Network. As a Designer and Network
         Technician, I'm responsible for a variety of tasks.
       </SectionText>
