@@ -30,7 +30,7 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img src={image} loading="lazy" alt={title} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
@@ -40,7 +40,9 @@ const Projects = () => (
               <Hr />
               {/* <TitleContent>Stack</TitleContent> */}
               <TagList>
-                {tags.map((tag, i) => <Tag key={i}>{tag}</Tag>)}
+                {tags.map((tag, i) => (
+                  <Tag key={i}>{tag}</Tag>
+                ))}
               </TagList>
             </div>
             <UtilityList>
@@ -48,7 +50,7 @@ const Projects = () => (
               <ExternalLinks href={visit}>Visit</ExternalLinks>
             </UtilityList>
           </BlogCard>
-        ),
+        )
       )}
     </GridContainer>
   </Section>
