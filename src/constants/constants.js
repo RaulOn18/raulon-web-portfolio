@@ -10,13 +10,13 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Admin-Dashboards",
+    title: "Raulon Dashboards",
     description:
       "Because the Admin Dashboard is built with ReactJS and ViteJS, it is extremely fast⚡. Not only that, what distinguishes the admin dashboard from the others is that this dashboard is very responsive on any device (tablet, cellphone, PC, etc.). This project aims to help administrators to manage office data.",
     image: "/images/raulon-dashboard.png",
     tags: ["ReactJs", "ViteJs", "ApexChart", "Framer Motion", "MUI"],
     source: "https://github.com/RaulOn18/raulon-dashboard",
-    visit: "https://google.com",
+    visit: "https://raulon-dashboard.vercel.app",
     id: 1,
   },
   {
