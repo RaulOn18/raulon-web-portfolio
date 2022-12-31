@@ -33,7 +33,7 @@ export const projects = [
     title: "Promedika Laboratorium",
     description:
       "ini adalah landing page untuk perusahaan di bidang kedokteran yang bernama promedika laboratorium, website ini bertujuan untuk memperluas pasar dan pelanggan",
-    image: "/images/ruangdakwah.png",
+    image: "/images/promedika.png",
     tags: ["Astro", "ReactJs", "TailwindCss"],
     source: "https://github.com/RaulOn18/promedika",
     visit: "https://promedika-lab.vercel.app",
