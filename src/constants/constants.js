@@ -29,6 +29,16 @@ export const projects = [
     visit: "https://ruangdakwah.vercel.app",
     id: 2,
   },
+  {
+    title: "Promedika Laboratorium",
+    description:
+      "ini adalah landing page untuk perusahaan di bidang kedokteran yang bernama promedika laboratorium, website ini bertujuan untuk memperluas pasar dan pelanggan",
+    image: "/images/ruangdakwah.png",
+    tags: ["Astro", "ReactJs", "TailwindCss"],
+    source: "https://github.com/RaulOn18/promedika",
+    visit: "https://promedika-lab.vercel.app",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
